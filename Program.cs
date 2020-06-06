@@ -17,6 +17,7 @@ namespace fuckaround2
             imageList.Add(img2);
             ImageList imList = new ImageList(imageList);
             Dungeon1.FromString("Room3").setFrames(imList);
+
             // this maps 1 image to 1 image name
             // now need something that maps multiple images to 1 name
             try
